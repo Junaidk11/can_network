@@ -6,8 +6,8 @@ The Loop-back folder was used during debugging to check if the CAN module of eac
 Initial Setup of CAN network: Blue = VCU - TMS570LS1227; RED = BMS - TMS570LS1224 
 
   Issues: VCU's on-baord tranceiver & BMS external transceiver were not able to translate bits from TTL to CAN bus logic.
-
-![CAN_image1](https://user-images.githubusercontent.com/33042545/68287223-388a2400-0037-11ea-8332-49a894ba7804.jpg)
+  
+![CAN_image1](https://user-images.githubusercontent.com/33042545/68287322-640d0e80-0037-11ea-99e4-64212b4508d0.jpg)
 
 Improved Setup: Used external transceivers for both VCU and BMS: 
  
