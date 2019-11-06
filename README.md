@@ -7,7 +7,7 @@ Initial Setup of CAN network: Blue = VCU - TMS570LS1227; RED = BMS - TMS570LS122
 
   Issues: VCU's on-baord tranceiver & BMS external transceiver were not able to translate bits from TTL to CAN bus logic.
 
-![CAN_image1](https://user-images.githubusercontent.com/33042545/68286639-49866580-0036-11ea-870b-ab801a212130.jpg)
+![CAN_image1](https://user-images.githubusercontent.com/33042545/68287223-388a2400-0037-11ea-8332-49a894ba7804.jpg)
 
 Improved Setup: Used external transceivers for both VCU and BMS: 
  
