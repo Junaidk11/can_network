@@ -1,9 +1,9 @@
 # CAN_NETWORK
-Implementation of CAN communication between two Hercules Safety MCUs - TMS570LS1224 and TMS570LS1227. Interrupts were employed on each node to notify successful transmission and reception of messages on the CAN network. 
+Implementation of CAN communication between Hercules Safety MCUs - TMS570LS1224 and TMS570LS1227 & TM4C123GH6PM. Interrupts were employed on each node to notify successful transmission and reception of messages on the CAN network. 
 
 The Loop-back folder was used during debugging to check if the CAN module of each NODE was functional - this helped in eliminating the nodes as source of errors in the CAN network. 
 
-Initial Setup of CAN network: Blue = VCU - TMS570LS1227; RED = BMS - TMS570LS1224 
+Initial Setup of CAN network: Blue = VCU - TMS570LS1227; RED = BMS - TMS570LS1224; 
 
   Issues: VCU's on-baord tranceiver & BMS external transceiver were not able to translate bits from TTL to CAN bus logic.
   
